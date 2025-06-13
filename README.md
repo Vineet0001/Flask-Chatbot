@@ -2,7 +2,8 @@
 
 A lightweight, modular AI-powered chatbot built with **Python**, **Flask**, and **OpenAI**, capable of answering real-world queries, evaluating math expressions, responding to user greetings, remembering names, and fetching live **weather** and **Wikipedia** information.
 
-[]https://github.com/user-attachments/assets/42c5be3b-2441-45c9-8296-99fa3f1c9ba5
+https://github.com/user-attachments/assets/d97b584b-f402-4ef2-97fc-45f00141d7c0
+
 ---
 
 ## ✨ Features
