@@ -62,14 +62,15 @@ flask_chatbot/
    python app.py  --Then open your browser at:
   📍 http://127.0.0.1:5000
 
-7. 📌 To-Do / Future Ideas
+## 📌To-Do / Future Ideas
+
    Add persistent chat history
 
    Support voice-to-text
 
    Deploy on Render / Railway / Vercel
 
-8. 🧠 Tech Stack
+## 🧠Tech Stack
    Python 3.10+
 
    Flask + Jinja2
