@@ -2,7 +2,7 @@
 
 A lightweight, modular AI-powered chatbot built with **Python**, **Flask**, and **OpenAI**, capable of answering real-world queries, evaluating math expressions, responding to user greetings, remembering names, and fetching live **weather** and **Wikipedia** information.
 
-https://github.com/user-attachments/assets/42c5be3b-2441-45c9-8296-99fa3f1c9ba5
+[]https://github.com/user-attachments/assets/42c5be3b-2441-45c9-8296-99fa3f1c9ba5
 ---
 
 ## ✨ Features
@@ -53,7 +53,7 @@ flask_chatbot/
    pip install -r requirements.txt
 
 5. **Add your API keys**
-   # secrets.py
+   secrets.py
    OPENWEATHER_API_KEY = "your_openweather_api_key"
    OPENAI_API_KEY = "your_openai_api_key"
 
