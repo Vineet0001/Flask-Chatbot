@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask ChatBot by Vineet</title>
+    <style>
+        body {
+            background: #1e1e1e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+        .chat-box {
+            max-width: 600px;
+            margin: auto;
+            background: #2e2e2e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .chat-box p {
+            text-align: left;
+        }
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🤖 Flask ChatBot by Vineet</h1>
+    <div class="chat-box">
+        {% for message in messages %}
+            <p><strong>You:</strong> {{ message.user }}</p>
+            <p><strong>🤖 Bot:</strong> {{ message.bot }}</p>
+        {% endfor %}
+        <form method="POST" action="/">
+            <input type="text" name="message" placeholder="Type a message..." required>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
